@@ -1,0 +1,8 @@
+features: [TRIAGE_ISSUES_AND_PULL_REQUESTS]
+triage:
+  rules:
+    - labels: "kekw"
+      title: "test"
+      directories:
+        - extensions/amazon-lambda
+        - integration-tests/amazon-lambda
