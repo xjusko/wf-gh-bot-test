@@ -22,7 +22,7 @@ Prerequisites:
 
 * JDK 11 or newer - check `java -version`
 * Maven 3.6.0 or newer - check `mvn -v`
-* On *nix systems, make sure that the maximum number of open files for the user running the build is at least 4096
+* On *nix systems, make sure that the maximum number of open files for the user running the build is at least 406
   (check `ulimit -n`) or more, depending on what other i/o intensive processes the user is running.
 
 To build with your own Maven installation:
